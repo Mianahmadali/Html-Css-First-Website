@@ -1,0 +1,101 @@
+*{padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+header{height: 45vh;}
+
+.first-h2{padding-left: 200px; padding-top: 100px;font-size: xx-large;}
+.first-paragraph{padding-left: 200px; font-size: x-large;}
+.first-button{margin-left: 200px; margin-top: 8px;
+background-color: rgb(64, 64, 236);
+color: white; border-radius: 10px; padding: 5px 18px; }
+.first-button:hover{color:yellow;}
+
+.logo{display: flex;align-items: end;margin-left: 100px;}
+/* .box1{background-image: url("../assects/image/bg.jpg"); height:40vh ; width: } */
+
+/* .box1{padding-top: 40px; */
+.box1{position: relative; padding-top: 30px;}
+
+.image2 {
+    width: 100%;  /* Or any specific width */
+    display: block;  /* Ensures the image does not have extra space below it */
+  }
+  
+  .image1 {
+    position: absolute;  /* Allows the image to overlap the first one */
+    top: -250px;          /* Moves the second image 30px up (you can adjust this value) */
+    left: 70%;           /* Centers the second image horizontally (adjust as needed) */
+    transform: translateX(-20%);  /* Fine-tunes the centering */
+    /* width: 80%;    
+           */ height: 75%;
+    z-index: 1;          /* Ensure the second image is above the first */
+
+  }
+
+ 
+.tesxt1{display: inline-block;
+
+width: 32%;
+/* padding-left: 30px; */
+text-align: center;
+/* padding-left: 300px; */
+
+transform: translate(0, -230%);
+color: white;
+
+
+}
+.third-h2{font-size: xx-large;
+color: rgb(48, 231, 255);}
+ 
+.box2{height: 50vh; text-align: center; padding-top: 40px;font-size: larger;}
+.Second-button{background-color: rgb(51, 51, 231); color: white; padding: 5px 20px;border-radius: 10px;margin-top: 10px;}
+/* footer{text-align: center;} */
+
+
+
+.box3{position: relative; display:block; 
+   /* justify-content: space-between;  */
+   gap: 0; }
+.footer-image{display: block; position: absolute;object-fit: cover; }
+.boxfooter{display: inline-block;
+width: 33%;
+border: 1px dashed white ;
+position:relative;
+
+height: 220px;
+top: 250px;
+text-align: center;
+padding-top: 100px;
+margin: 0 10px;
+color: white;
+left: 14%;}
+
+.Responsive-image{ display: inline-block;
+  margin-top: 100px;
+  margin-left: 300px;
+  
+  transform: translate(0, -300%);
+  color: white;}
+  h1{text-align: center;
+  }
+
+
+
+
+.end{display: inline-block;
+
+  /* width: 32%; */
+  /* padding-left: 30px; */
+  /* text-align: center; */
+  /* padding-left: 300px; */
+  /* margin-top: 100px; */
+  margin-left: 500px;
+  
+  transform: translate(0, 400%);
+  color: white;}
+.custom-icon{color: red; }
+.custom-icon:hover{color: yellow;}
+.lastest-p{text-align: center;}
